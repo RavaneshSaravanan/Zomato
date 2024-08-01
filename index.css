@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    body{
+        background-image: url(burger.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navigation-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px 10px;
+        background-color: red;
+    }
+    .navigation{
+        display: flex;
+    }
+    .left-content ,.right-content{
+        display: flex;
+        align-items: center;
+    }
+    .left-content li,.right-content li{
+        margin-right: 25px;
+        padding-top: 10px;
+        list-style: none;
+    }
+    .left-content li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        
+    } 
+    .left-content li a:hover{
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white,0 0 40px white,0 0 50px white,0 0 60px white,0 0 70px white;
+    }
+    .right-content li a:hover{
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white,0 0 40px white,0 0 50px white,0 0 60px white,0 0 70px white;
+    }
+    .right-content li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bolder;   
+    }
+    .center{
+        padding-top: 5%;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size: 500%;
+    }
+    .button{
+        display: flex;
+        padding-left: 27%;
+    }
+    button{
+        background-color: white;
+        color: red;
+        font-weight: bolder;
+        font-size: 150%;
+        height: 40px;
+        width: 20%;
+        border-radius: 20px;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 5%;
+        
+
+    }
+}
